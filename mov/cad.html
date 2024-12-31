@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Login</title>
+  </head>
+  <body>
+    <header>
+      <a href="../index.html">Voltar</a>  
+    </header>
+    <main>
+        <section id="materiaPrima">
+            <ui>
+                <li>
+                    <span>Cream Cheese </span> <button>Editar</button><button>Apagar</button>
+                </li>
+                <li>
+                    <span>Salmão </span> <button>Editar</button><button>Apagar</button>
+                </li>
+                <li>
+                    <span>Macarrão </span><button>Editar</button><button>Apagar</button>
+                </li>
+            </ui>
+        </section>
+        <section id="cadastrarMateriaPrima">
+            <form>
+                <label for= "nomeProduto">Insira o nome do produto:</label>
+                <input name= "nomeProduto" type= "text" placeholder="1 caixa de salmão (1kg)" required>
+                <label for="precoProduto">Preço:</label>
+                <input name="precoProduto" type=" number" required step=".01">
+                <button id="cadastrarNovaMateriaPrima" type= "submit">Cadastrar</button>
+            </form>
+        </section>
+    </main>
+  </body>
+</html>
